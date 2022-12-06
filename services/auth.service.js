@@ -8,13 +8,13 @@ const AUTH_HEADER = "authorization"
 const BEARER_AUTH = "bearer"
 const PORT = process.env.PORT || 3001
 const allowedServiceProvider = {
-    "https://serviceprovider.onrender.com": true,
+    "https://service-provider.onrender.com": true,
     "http://localhost:4001": true,
     "https://localhost:4001": true
 }
 const appTokenDB = {
     "http://www.google.com": "l1Q7zkOL59cRqWBkQ12ZiGVW2DBL",
-    "https://serviceprovider.onrender.com": "l1Q7zkOL59cRqWBkQ12ZiGVW2DBL",
+    "https://service-provider.onrender.com": "l1Q7zkOL59cRqWBkQ12ZiGVW2DBL",
     "http://localhost:4001": "l1Q7zkOL59cRqWBkQ12ZiGVW2DBL",
     "https://localhost:4001": "l1Q7zkOL59cRqWBkQ12ZiGVW2DBL"
 }
